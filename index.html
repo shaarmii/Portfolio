@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="Portfolio.js"></script>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .main1 h1{
+            margin: 0px;
+        }
+        .main1{
+            position: relative;
+            width: 100%;
+            height: 10vh;
+            background-color: black;
+            color: aliceblue;
+        }
+        .name{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: x-large;
+            transform: translate(-50%,-50%);
+        }
+        .main2{
+            position: relative;
+            width: 100%;
+            height: 80vh;
+        }
+        .m1{
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .m2{
+            position: absolute;
+            left: 100px;
+            bottom: 220px;
+        }
+        .m2 button{
+            font-size: x-large;
+            border: 5px solid rgb(76, 72, 72);
+            background-color: rgb(172, 167, 167,0.3);
+            color: aliceblue;
+            border-radius: 15px;
+        }
+        #im1{
+            width: 100%;
+            height: 100%;
+        }
+        .m3{
+            position: absolute;
+            right: 230px;
+            top: 90px;
+        }
+        /* .m4{
+            position: absolute;
+            color: aliceblue;
+            left: 920px;
+            top: 90px;
+            display: none;
+        } */
+        .m3 img{
+            height: 400px;
+            width: 300px;
+            border-radius:100px;
+            border: 5px solid rgb(240, 233, 233);
+        }
+        .main3{
+            width: 100%;
+            height: 10vh;
+            background-color: black;
+        }
+        .main3 h1{
+            margin: 0px;
+            color: aliceblue;
+            text-align: center;
+        }
+        .sec{
+            position: absolute;
+            right: 30px;
+            top:50%
+        }
+        .sec td{
+            font-size: 20px;
+            padding-left: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <div class="name">
+            <h1>Shaarmi</h1>
+        </div>
+        <div class="sec">
+            <table>
+                <tr>
+                    <td id="home">Home</td>
+                    <td id="b">About Me</td>
+                    <td id="projects">Projects</td>
+                    <td id="skills">Skills</td>
+                    <td id="experience">Experience</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="main2">
+        <img src="background.avif" alt="" id="im1">
+        <div class="m1">
+            <h1 id="h1">Shaarmi</h1>
+            <h1 id="h2">Welcome to my portfolio</h1>
+            <h1 id="h3">Machine Learning & Web Development Enthusiast</h1>
+            <div id="content"></div>
+        </div>
+        <!-- <div class="m2">
+            <button id="b"><b>About</b></button>
+        </div> -->
+        <div class="m3" id="visible">
+            <img src="shaarmi photo.jpg" alt="">
+        </div>
+        <!-- <div class="m4" id="hidden">
+            <h2>I'm a passionate fresher with a strong interest in Machine Learning, Generative AI, and Web Development.</h2>
+            <h2> I'm eager to apply my skills to real-world projects and continuously learn to grow as a developer.</h2>
+        </div> -->
+    </div>
+    <div class="main3">
+        <h1>shaarmi947@gmail.com</h1>
+    </div>
+</body>
+</html>
